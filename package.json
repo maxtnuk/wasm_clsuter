@@ -1,0 +1,36 @@
+{
+  "author": "You <you@example.com>",
+  "name": "rust-webpack-template",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "rimraf dist && webpack",
+    "dev": "rimraf dist pkg && webpack serve"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@react-three/fiber": "^7.0.6",
+    "@shopify/react-web-worker": "^2.1.2",
+    "@tensorflow-models/handpose": "^0.0.7",
+    "@tensorflow/tfjs": "^3.8.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "source-map": "^0.5.7",
+    "styled-components": "^5.3.0",
+    "victory": "^35.10.0",
+    "wasm-feature-detect": "^1.2.11"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.66",
+    "@wasm-tool/wasm-pack-plugin": "^1.1.0",
+    "copy-webpack-plugin": "^5.0.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "regenerator-runtime": "^0.13.9",
+    "rimraf": "^3.0.0",
+    "swc-loader": "^0.1.14",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "worker-plugin": "^5.0.1"
+  }
+}
